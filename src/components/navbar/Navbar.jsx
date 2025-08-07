@@ -42,7 +42,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="navbar-logo">
         <img src={navbarLogo} alt="" />
-        <h1>FASHION</h1>
+        <h1>WearCraft</h1>
       </div>
       <div
         className={`navbar-mid-right ${

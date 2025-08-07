@@ -2,28 +2,24 @@ import React from 'react'
 import './CSS/LoginSignup.css'
 import { useNavigate } from 'react-router-dom'
 
-const LoginSignup = () => {
+function LoginAready() {
 
-    const novigate = useNavigate();
+    const novigate = useNavigate()
 
-function handleLogIn(){
-
-  novigate('/loginAready')
-
-}
-
+    function handleSignup(){
+        novigate('/login')
+    }
   return (
     <div className='LoginSignup'>
         <div className="LoginSignup-container">
           <div className="form-section">
-          <p className='signup'>Sign Up</p>
+          <p className='signup'>Sign In</p>
           <form className="inputs">
-            <input type="text" placeholder='Enter Fullname' required/>
             <input type="email" name="" id="" placeholder='Enter Email' required/>
             <input type="password" placeholder='Enter Password' required />
             <button type='submit'>Continue</button>
           </form>
-          <p className='login'>Already have an account?<span onClick={handleLogIn}>Login here</span></p>
+          <p className='login'>I don't have an account?<span onClick={handleSignup}>Signup here</span></p>
           <div className='terms'>
               <input type="checkbox" />
               <p>By clicking this You agree to the Terms</p>
@@ -34,4 +30,4 @@ function handleLogIn(){
   )
 }
 
-export default LoginSignup
+export default LoginAready

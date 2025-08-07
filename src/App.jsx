@@ -10,6 +10,7 @@ import Footer from "./components/Footer/Footer";
 import menBanner from "./components/assets/banner_mens.png"
 import womenBanner from './components/assets/banner_women.png'
 import kidsBanner from  './components/assets/banner_kids.png'
+import LoginAready from "./pages/loginAready";
 
 const App = () => {
   return (
@@ -20,13 +21,18 @@ const App = () => {
         <Route path="/men" element={<ShopCategory banner={menBanner} category="men" />} />
         <Route path="/women" element={<ShopCategory banner={womenBanner} category="women" />} />
         <Route path="/kids" element={<ShopCategory banner={kidsBanner} category="kids" />} />
+
         <Route path="/product" element={<Product />}>
           <Route path=":productId" element={<Product />} />
         </Route>
+        
         <Route path="/cart" element={<Cart />} />
+        
         <Route path="/login" element={<LoginSignup />} />
+        <Route path="/loginAready" element={<LoginAready/>} />
+
       </Routes>
-      <Footer />
+       <Footer />
     </>
   );
 };
