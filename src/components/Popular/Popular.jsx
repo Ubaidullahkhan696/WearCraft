@@ -2,6 +2,8 @@ import React from "react";
 import "./Popular.css";
 import data from "../assets/data";
 import Item from "../item/Item";
+
+
 const Popular = () => {
   console.log(data)
   return (

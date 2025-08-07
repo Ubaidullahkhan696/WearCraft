@@ -12,6 +12,7 @@ import womenBanner from './components/assets/banner_women.png'
 import kidsBanner from  './components/assets/banner_kids.png'
 import LoginAready from "./pages/loginAready";
 
+
 const App = () => {
   return (
     <>

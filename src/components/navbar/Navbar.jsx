@@ -14,6 +14,7 @@ const Navbar = () => {
     setHamburger(!hamburger);
     console.log(hamburger);
   };
+  
 
   const handleClose =()=>{
      setHamburger(false)

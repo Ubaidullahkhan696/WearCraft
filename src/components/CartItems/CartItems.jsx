@@ -13,6 +13,7 @@ const CartItems = () => {
     increaseQuantity,
   } = useContext(ShopContext);
 
+  
    const isCartEmpty = Object.values(cartItem).filter((item) => item.quantity > 0).length === 0;
 
   if (isCartEmpty) {

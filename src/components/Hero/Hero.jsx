@@ -4,6 +4,7 @@ import handIcon from "../assets/hand_icon.png";
 import arrowIcon from "../assets/arrow.png";
 import heroImg from "../assets/hero_image.png";
 
+
 const Hero = () => {
   return (
     <div className="hero">

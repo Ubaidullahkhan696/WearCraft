@@ -9,6 +9,7 @@
     width: 100%;
 }
 
+
 .cartitems-format-main{
     display: grid;
    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr;

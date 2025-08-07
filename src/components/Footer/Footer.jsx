@@ -5,6 +5,7 @@ import InstaIcon  from  '../assets/instagram_icon.png'
 import pinterestIcon from '../assets/pintester_icon.png'
 import whatsappIcon from '../assets/whatsapp_icon.png'
 
+
 const Footer = () => {
   return (
     <div className='footer'>
@@ -26,7 +27,7 @@ const Footer = () => {
          </div>
          <hr className='footer-line' />
          <div className='Copyright'>
-            <p>© 2024 Ubaid Cpoyright All Rights Resreved</p>
+            <p>© 2024 Ubaid Copyright All Rights Resreved</p>
          </div>
     </div>
   )

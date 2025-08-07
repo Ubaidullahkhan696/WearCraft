@@ -9,6 +9,7 @@ function LoginAready() {
     function handleSignup(){
         novigate('/login')
     }
+    
   return (
     <div className='LoginSignup'>
         <div className="LoginSignup-container">
