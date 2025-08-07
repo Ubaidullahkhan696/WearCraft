@@ -31,4 +31,4 @@ function LoginAready() {
   )
 }
 
-export default LoginAready
+export default LoginAready;

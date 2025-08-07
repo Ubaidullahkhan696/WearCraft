@@ -35,4 +35,4 @@ function handleLogIn(){
   )
 }
 
-export default LoginSignup
+export default LoginSignup;
