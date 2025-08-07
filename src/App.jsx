@@ -5,12 +5,13 @@ import Product from "./pages/Product";
 import ShopCategory from "./pages/ShopCategory";
 import Cart from "./pages/Cart";
 import LoginSignup from "./pages/LoginSignup";
+import LoginAready from "../src/pages/LoginAready";
 import { Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
-import menBanner from "./components/assets/banner_mens.png"
-import womenBanner from './components/assets/banner_women.png'
-import kidsBanner from  './components/assets/banner_kids.png'
-import LoginAready from "./pages/loginAready";
+import menBanner from "./components/assets/banner_mens.png";
+import womenBanner from './components/assets/banner_women.png';
+import kidsBanner from  './components/assets/banner_kids.png';
+
 
 
 const App = () => {
