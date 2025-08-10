@@ -1,0 +1,103 @@
+.LoginSignup{
+    background: linear-gradient(180deg,#d66edd 0%,#54585522 60%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.LoginSignup-container{
+      height: 400px;
+      width: 500px;
+      background: white;
+      border-radius: 16px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+}
+
+.form-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.signup{
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.inputs input{
+    height: 35px;
+    padding: 5px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 20px;
+}
+
+
+.inputs button{
+    height: 35px;
+    padding: 5px;
+    border: 1px solid gray;
+    outline: none;
+    background: rgb(242, 74, 74);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.login{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 0;
+}
+
+.login span{
+    font-size: 14px;
+    color: rgb(209, 122, 122);
+    cursor: pointer;
+}
+
+.terms{
+    display: flex;
+    gap: 3px;
+}
+@media (max-width:1000px){
+  .login{
+     flex-direction: row;
+
+  }
+}
+
+
+
+@media (max-width:768px){
+    .LoginSignup-container{
+        width: 80%;
+        padding: 10px;
+    }
+    .inputs input{
+        height: 20px;
+    }
+
+    .login{
+        font-size: 12px;
+    }
+    .login span{
+        font-size: 10px;
+    }
+    .terms p{
+        font-size: 12px;
+    }
+}

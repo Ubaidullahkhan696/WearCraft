@@ -1,0 +1,18 @@
+.productDisplay-conatiner{
+    display: grid;
+    grid-template-rows: 1fr;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+    gap: 20p;
+}
+
+
+@media (max-width:1024px) {
+   .productDisplay-conatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+}

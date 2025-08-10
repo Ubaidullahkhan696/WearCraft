@@ -1,0 +1,12 @@
+.breadcrums{
+    margin-top: 20px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: -100px;
+}
+
+.breadcrums img{
+    height: 10px;
+    width: 10px;
+}
